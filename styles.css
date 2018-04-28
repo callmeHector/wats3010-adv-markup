@@ -1,1 +1,22 @@
 /* Styles for the Advanced Markup assignment. */
+header {
+    background: white;
+}
+
+aside, section, footer {
+    background: gray;
+}
+nav ul li {
+   display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.active {
+    font-weight: 900;
+    background: #cccc;
+    padding: 5px;
+}
